@@ -13,20 +13,20 @@ proxy-providers:
 
 # 节点信息（用于自建VPS节点）
 # proxies:
-  - name: 填入自己想要的名字
-    dialer-proxy: 默认代理
-    type: vless
-    server: xui.guo.win
-    port: 24129
-    client-fingerprint: chrome
-    tls: true
-    udp: true
-    servername: www.infiniree.com
-    flow: xtls-rprx-vision
-    network: tcp
-    reality-opts: 
-      public-key: g-oxbgigzCaXqARxuyD2_vbTYe
-    uuid: 67a5a3ed-2b19-4699-a25e-17760e34e058
+#  - name: 填入自己想要的名字
+#    dialer-proxy: 默认代理
+#    type: vless
+#    server: xui.guo.win
+#    port: 24129
+#    client-fingerprint: chrome
+#    tls: true
+#    udp: true
+#    servername: www.infiniree.com
+#    flow: xtls-rprx-vision
+#    network: tcp
+#    reality-opts: 
+#      public-key: g-oxbgigzCaXqARxuyD2_vbTYe
+#    uuid: 67a5a3ed-2b19-4699-a25e-17760e34e058
 
   - {name: 直连, type: direct}
 
