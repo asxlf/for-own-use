@@ -12,7 +12,7 @@ proxy-providers:
     proxy: 直连
 
 # 节点信息（用于自建VPS节点）
-# proxies:
+proxies:
 #  - name: 填入自己想要的名字
 #    dialer-proxy: 默认代理
 #    type: vless
@@ -106,8 +106,8 @@ dns:
     - https://223.5.5.5/dns-query
   # namesever尽量用运营商提供的DNS
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+    - 211.139.29.170
+    - 211.139.29.150
  
 # 出站策略
 # 注意锚点必须放在引用的上方，可以集中把锚点全部放yaml的顶部。
