@@ -41,7 +41,8 @@ bind-address: "*"
 ipv6: false
 unified-delay: true
 tcp-concurrent: true
-log-level: warning
+log-level: silent
+mode: rule
 find-process-mode: 'off'
 # interface-name: en0
 global-client-fingerprint: chrome
